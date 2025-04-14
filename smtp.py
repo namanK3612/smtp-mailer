@@ -25,16 +25,10 @@ USERNAME =  os.get_env("USERNAME")
 PASSWORD =  os.get_env("PASSWORD")
 FROM_ADDRESS = "kimbal-alerts@apdclintelli.in"
 TO_ADDRESS = [
-    "naman.kumar@kimbal.io",
-    "sanchit.rathee@kimbal.io",
-    "amit.sharma@kimbal.io",
-    "jagdeep@kimbal.io",
-    "harojyoti.borah@kimbal.io",
-    "shahadul.haque@intellismartinfra.in",
-    "ronit.bhararia@intellismartinfra.in",
-    "abhishek.soni@intellismartinfra.in",
-    "chandan.s@fluentgrid.com",
-    "prakash.g@fluentgrid.com"
+    # os.getenv("RECEIPENT1"),
+    # os.getenv("RECEIPENT2"),
+    # os.getenv("RECEIPENT3"),
+    # ...   
 ]
 SUBJECT = "Daily Queue Push Data Count Report || APDCL Pkg 7"
 BODY = (
